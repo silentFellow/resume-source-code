@@ -133,11 +133,11 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 #heading("Technical Skills")
 #item-with-title(
   "Languages",
-  "Go, TypeScript, JavaScript, Python, C/C++, Java, Dart, SQL"
+  "Go, TypeScript, JavaScript, Python, C, Java, SQL"
 )
 #item-with-title(
   "Frontend",
-  "React.js, Next.js, Flutter, HTML/CSS, Tailwind CSS, Shadcn-UI, TanStack Tools"
+  "React.js, Next.js, HTML, CSS, Tailwind CSS, Shadcn-UI, TanStack Tools"
 )
 #item-with-title(
   "Backend & API",
@@ -145,7 +145,7 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 )
 #item-with-title(
   "Databases",
-  "PostgreSQL, MongoDB, Database Design, Query Optimization"
+  "PostgreSQL, MongoDB"
 )
 #item-with-title(
   "DevOps & Tools",
@@ -159,7 +159,7 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 #heading("Education")
 #item-with-title-and-subheading(
   "Kongu Engineering College", "Tamilnadu, IN",
-  "B.Tech in Artificial Intelligence & Machine Learning; GPA: 8.90/10.0",
+  "B.Tech in Artificial Intelligence & Machine Learning; GPA: 8.84/10.0",
   "Nov. 2022 -- May. 2026",
 
   isLast: true,
@@ -167,4 +167,4 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 
 #heading("Achievements")
 - Certified MongoDB Associate Developer #accentlink("https://learn.mongodb.com/c/o4uMvThfQDuYpcjprIEyWg", "(Certificate)")
-- Solved 500+ #techstyle[data structures and algorithms problems] on #techstyle[LeetCode] across #techstyle[Go, Python, and Java], maintaining a 250+ day streak.
+- Solved 500+ #techstyle[data structures and algorithms problems] on #techstyle[LeetCode] across #techstyle[Go, Python, and Java], maintaining a 365+ day streak.
