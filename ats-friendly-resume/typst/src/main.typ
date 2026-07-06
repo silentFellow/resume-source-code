@@ -29,17 +29,28 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 
 #heading("Experience")
 #item-with-title-and-subheading(
+  link("https://www.cdw.com")[CDW Technologies India Private Limited],
+  "Chennai, IN",
+  "Software Engineering Intern -> Fulltime Software Engineer",
+  "Mar. 2026 -- Present",
+  body: [
+    - Built and maintained backend services using #techstyle[NestJS], implementing RESTful APIs and business logic for internal applications
+    - Set up and managed development infrastructure, including #techstyle[Docker] environments, #techstyle[Git] repository migration, and database backup/restore workflows through data synchronization endpoints
+    - Developed data processing pipelines using #techstyle[Apache Kafka] for asynchronous messaging, parallel processing, and data transformation
+    - Collaborated with cross-functional engineers in an #techstyle[Agile] environment, participating in #techstyle[Scrum] ceremonies, code reviews, and feature delivery
+  ],
+)
+
+#item-with-title-and-subheading(
   link("https://greencollar.ai")[Green Collar Agritech Solutions],
   "Bengaluru, IN",
   "Freelancer → Student Intern → Software Engineering Intern",
-  "Nov. 2023 -- Present",
+  "Nov. 2023 -- Feb. 2026",
   body: [
-    - Engineered responsive web applications using #techstyle[React.js and Next.js] following software engineering best practices, serving 500+ daily active users
-    - Boosted application performance by 40% through #techstyle[TanStack Query caching] application
-    - Improved #techstyle[SEO performance] through #techstyle[server-side rendering], increasing organic traffic by 25%
-    - Built and optimized cross-platform desktop and mobile applications with #techstyle[Flutter], applying responsive UI principles and native performance optimization
-    - Partnered with 5+ engineers in Agile methodology, consistently delivering features on schedule across multiple sprint cycles through #techstyle[code reviews]
-    - Contributed actively to #techstyle[daily Scrum standups and sprint planning] with development team, consistently meeting project deadlines and #techstyle[contributing to technical discussions]
+    - Developed responsive web applications using #techstyle[React.js], #techstyle[Next.js], and modern frontend best practices, supporting 500+ daily active users
+    - Improved application performance by 40% using #techstyle[TanStack Query] caching and optimized rendering strategies
+    - Enhanced #techstyle[SEO] and page performance through #techstyle[server-side rendering (SSR)], contributing to a 25% increase in organic traffic
+    - Collaborated with cross-functional engineers in an #techstyle[Agile] environment, participating in #techstyle[code reviews], Scrum ceremonies, and feature delivery
   ],
   isLast: true,
 )
@@ -61,6 +72,8 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
   ],
 )
 
+#pagebreak()
+
 #item-with-title-and-subheading(
   "Abstract-UI - React Component Library",
   link("https://github.com/silentFellow/abstract-ui.git")[GitHub] +
@@ -78,8 +91,6 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
     - Realized 95%+ developer satisfaction through intuitive API design and comprehensive TypeScript definitions
   ],
 )
-
-#pagebreak()
 
 #item-with-title-and-subheading(
   "L2Shift - Cross-Platform MAC Address Manager",
@@ -141,11 +152,15 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 )
 #item-with-title(
   "Backend & API",
-  "Node.js, Express.js, FastAPI, RESTful APIs, WebSockets"
+  "Node.js, Express.js, Nest.js, FastAPI, RESTful APIs, WebSockets"
 )
 #item-with-title(
   "Databases",
   "PostgreSQL, MongoDB"
+)
+#item-with-title(
+  "Messaging & Streaming",
+  "Apache Kafka"
 )
 #item-with-title(
   "DevOps & Tools",
@@ -159,7 +174,7 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 #heading("Education")
 #item-with-title-and-subheading(
   "Kongu Engineering College", "Tamilnadu, IN",
-  "B.Tech in Artificial Intelligence & Machine Learning; GPA: 8.84/10.0",
+  "B.Tech in Artificial Intelligence & Machine Learning; CGPA: 8.84/10.0",
   "Nov. 2022 -- May. 2026",
 
   isLast: true,
