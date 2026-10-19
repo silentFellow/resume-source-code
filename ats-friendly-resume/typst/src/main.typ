@@ -16,11 +16,17 @@
 #accentlink("mailto:gowtham.sri@zohomail.in", "gowtham.sri@zohomail.in") #h(0.6em) | #h(0.6em)
 #accentlink("tel:+917395831324", "+91-73958-31324") #h(0.6em) | #h(0.6em)
 #accentlink("https://github.com/silentFellow", "github.com/silentFellow") #h(0.6em) | #h(0.6em)
-#accentlink("https://linkedin.com/in/silentFellow", "linkedin.com/in/silentFellow") \
+#accentlink(
+  "https://linkedin.com/in/silentFellow",
+  "linkedin.com/in/silentFellow",
+) \
 #accentlink("https://silentFellow.dev", "silentFellow.dev") #h(0.6em) | #h(0.6em)
 #accentlink("https://blogs.silentFellow.dev", "blogs.silentFellow.dev") #h(0.6em) | #h(0.6em)
 #accentlink("https://leetcode.com/silentFellow", "leetcode.com/silentFellow") #h(0.6em) | #h(0.6em)
-#accentlink("https://www.google.com/maps/place/Tamil+Nadu,+India/", "Tamil Nadu, IN")
+#accentlink(
+  "https://www.google.com/maps/place/Tamil+Nadu,+India/",
+  "Tamil Nadu, IN",
+)
 
 #divider()
 
@@ -57,10 +63,25 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 
 #heading("Projects")
 #item-with-title-and-subheading(
+  "ThreatXposureIQ - CTEM Intelligence Platform",
+  "Enterprise SaaS",
+  "TypeScript  |  React  |  Express  |  PostgreSQL  |  Drizzle  |  Redis  |  Docker",
+  "",
+  body: [
+    - Built an enterprise #techstyle[Continuous Threat Exposure Management (CTEM)] SaaS platform that helps security teams measure attack surface, validate controls, and prove program maturity
+    - Contributed 145+ commits across #techstyle[reporting], #techstyle[threat-intelligence], and #techstyle[risk-scoring] modules
+    - Developed board, compact, and full #techstyle[PDF reports] with an editable preview and download history
+    - Applied #techstyle[evidence-quality gating] to withhold financial-risk claims not backed by reliable data
+    - Integrated #techstyle[CISA KEV] and #techstyle[MITRE ATT&CK] with actionability scoring and KRI-to-technique mapping
+    - Centralized #techstyle[risk-score] computation across dashboard, reports, and attack map
+  ],
+)
+
+#item-with-title-and-subheading(
   "Cred - Secure CLI Password Manager",
-  link("https://github.com/silentFellow/cred.git")[GitHub] +
-    "  |  "   +
-    link("https://cred.silentfellow.dev")[Docs],
+  link("https://github.com/silentFellow/cred.git")[GitHub]
+    + "  |  "
+    + link("https://cred.silentfellow.dev")[Docs],
   "Go | Cobra CLI",
   "",
   body: [
@@ -72,15 +93,13 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
   ],
 )
 
-#pagebreak()
-
 #item-with-title-and-subheading(
   "Abstract-UI - React Component Library",
-  link("https://github.com/silentFellow/abstract-ui.git")[GitHub] +
-    "  |  "   +
-    link("https://abstract-ui.silentfellow.dev")[Demo] +
-    "  |  "   +
-    link("https://www.npmjs.com/package/@silentfellow/abstract-ui")[NPM],
+  link("https://github.com/silentFellow/abstract-ui.git")[GitHub]
+    + "  |  "
+    + link("https://abstract-ui.silentfellow.dev")[Demo]
+    + "  |  "
+    + link("https://www.npmjs.com/package/@silentfellow/abstract-ui")[NPM],
   "React  |  TypeScript  |  Tailwind CSS  |  Storybook",
   "",
   body: [
@@ -103,22 +122,6 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
     - Attained 100% success rate across multiple Linux distributions and macOS versions
     - Demonstrated #techstyle[advanced networking] knowledge and #techstyle[low-level system programming] expertise
     - Designed an intuitive command-line interface with help system and validation, reducing user errors by 80%
-  ],
-)
-
-#item-with-title-and-subheading(
-  "NeoUrl - High-Performance URL Shortener",
-  link("https://github.com/silentFellow/neourl.git")[GitHub] +
-    "  |  " +
-    link("http://43.204.114.237:8080")[Live],
-  "Go  |  HTMX",
-  "",
-  body: [
-    - Enhanced #techstyle[cloud-native] URL shortening service with #techstyle[Go backend] and modern #techstyle[HTMX frontend]
-    - Implemented efficient URL mapping algorithm with #techstyle[collision detection] and custom short codes
-    - Deployed on #techstyle[cloud infrastructure] serving 500+ daily URL conversions with 99.9% uptime
-    - Optimized performance, achieving #techstyle[sub-100ms response times] with minimal resource usage
-    - Applied smart caching layers for database optimization that reuses shortened endpoints for duplicate URLs, improving response efficiency by 45%
   ],
   isLast: true,
 )
@@ -144,36 +147,37 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 #heading("Technical Skills")
 #item-with-title(
   "Languages",
-  "Go, TypeScript, JavaScript, Python, C, Java, SQL"
+  "Go, TypeScript, JavaScript, Python, C, Java, SQL",
 )
 #item-with-title(
   "Frontend",
-  "React.js, Next.js, HTML, CSS, Tailwind CSS, Shadcn-UI, TanStack Tools"
+  "React.js, Next.js, HTML, CSS, Tailwind CSS, Shadcn-UI, TanStack Tools",
 )
 #item-with-title(
   "Backend & API",
-  "Node.js, Express.js, Nest.js, FastAPI, RESTful APIs, WebSockets"
+  "Node.js, Express.js, Nest.js, FastAPI, RESTful APIs, WebSockets",
 )
 #item-with-title(
   "Databases",
-  "PostgreSQL, MongoDB"
+  "PostgreSQL, MongoDB, Drizzle ORM",
 )
 #item-with-title(
   "Messaging & Streaming",
-  "Apache Kafka"
+  "Apache Kafka",
 )
 #item-with-title(
   "DevOps & Tools",
-  "Linux, Docker/Podman, Git, AWS (EC2, S3), Shell Scripting, CI/CD"
+  "Linux, Docker/Podman, Git, AWS (EC2, S3), Shell Scripting, CI/CD, mise",
 )
 #item-with-title(
   "Development Tools",
-  "Neovim, Bruno/Postman, Storybook, Vite, ESLint, Prettier, Cobra CLI, tmux"
+  "Neovim, Bruno/Postman, Storybook, Vite, ESLint, Biome, Prettier, Cobra CLI, tmux",
 )
 
 #heading("Education")
 #item-with-title-and-subheading(
-  "Kongu Engineering College", "Tamilnadu, IN",
+  "Kongu Engineering College",
+  "Tamilnadu, IN",
   "B.Tech in Artificial Intelligence & Machine Learning; CGPA: 8.84/10.0",
   "Nov. 2022 -- May. 2026",
 
