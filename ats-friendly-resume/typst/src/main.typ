@@ -112,20 +112,18 @@ Results-oriented Software Engineer with 3+ years of experience building cross-pl
 )
 
 #item-with-title-and-subheading(
-  "L2Shift - Cross-Platform MAC Address Manager",
-  link("https://github.com/silentFellow/l2shift.git")[GitHub],
-  "C  |  System programming",
+  "ACMEJC - Salsify to Salesforce ETL Platform",
+  "Enterprise ETL",
+  "TypeScript | NestJS | Kafka | Redis | PostgreSQL | Prisma | React | Docker",
   "",
   body: [
-    - Engineered cross-platform CLI tool for #techstyle[MAC address] modification using native system APIs
-    - Executed Linux support via #techstyle[direct syscalls] and macOS compatibility through #techstyle[ifconfig] integration
-    - Attained 100% success rate across multiple Linux distributions and macOS versions
-    - Demonstrated #techstyle[advanced networking] knowledge and #techstyle[low-level system programming] expertise
-    - Designed an intuitive command-line interface with help system and validation, reducing user errors by 80%
+    - Built an event-driven #techstyle[ETL platform] converting Salsify JSON into Salesforce XML via orchestrator, chunk, and merger services
+    - Processed large payloads in parallel through #techstyle[Kafka] chunks with #techstyle[JSONata] mappings and #techstyle[Redis]-cached lookups
+    - Tracked runs and #techstyle[idempotency keys] in #techstyle[PostgreSQL/Prisma] for audit trails and safe re-runs
+    - Secured APIs with #techstyle[JWT] roles; built a #techstyle[React] dashboard and #techstyle[GitHub Actions] CI
   ],
   isLast: true,
 )
-
 /* NeoBlog only for fullstack oriented thingy, replace neourl(mostly)
 #item-with-title-and-subheading(
   "NeoBlog - Full-Stack Blogging Platform",
